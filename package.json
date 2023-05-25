@@ -1,0 +1,23 @@
+{
+  "name": "hapi-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "eslint": "^8.41.0",
+    "nanoid": "^4.0.2",
+    "save-dev": "^0.0.1-security",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
